@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>xsoras Hizmetler</title>
+</head>
+<body>
+    <div id="objeId">^</div>
+    <header class="first-header">
+        <a href="#" class="left-s">xsoras</a>
+    </header>
+
+    <section class="second-header">
+        <p style="font-size: 170%;">Aşağı inerek paketlere göz atabilirsiniz</p>
+    </section>
+    <section class="anakisim">
+        <div class="paketler">
+            <div class="paket">
+                <h2>Özel Discord Botu</h2>
+                <hr>
+                <p>Bu paketin içindekiler:</p>
+                <span onmouseover="changeColor(this)" onmouseout="resetColor(this)">Özel Komutlar, Eventler, Optimizasyonlar...</span>
+                <span onmouseover="changeColor(this)" onmouseout="resetColor(this)">Projeye Özel Fiyatlandırma</span>
+                <span onmouseover="changeColor(this)" onmouseout="resetColor(this)">Maksimum 7 Gün İçerisinde Teslim</span>
+                <a href="" class="satin-al">Satın Al</a>
+            </div>
+
+            <div class="paket">
+                <h2>Özel Website</h2>
+                <hr>
+                <p>Bu paketin içindekiler:</p>
+                <span onmouseover="changeColor(this)" onmouseout="resetColor(this)">YAKINDA</span>
+                <a href="" class="satin-al" id="satin-al">Satın Al</a>
+            </div>
+
+            <div class="paket">
+                <h2>Özel Discord Sunucusu</h2>
+                <hr>
+                <p>Bu paketin içindekiler:</p>
+                <span onmouseover="changeColor(this)" onmouseout="resetColor(this)">YAKINDA</span>
+                <a href="" class="satin-al">Satın Al</a>
+            </div>
+            <div style="margin-top: 950px;"></div>
+            <div class="paket" style="bottom: 50px;width: auto ;left: 50px;right: 50px; position: absolute;">
+                <h2 style="font-size: 200%;">İletişim</h2>
+                <p style="font-size: 150%">Bana discorddan ulaşabilirsiniz:</p>
+                <p style="top: -400px;">Discord Sunucum: <a style="color:aqua;" id="metin2" href="https://discord.gg/HHv8BPuXZs"> https://discord.gg/HHv8BPuXZs</a></p>
+                <button id="metin" class="butonKopyala" onclick="kopyalaMetin()" style="position: absolute;margin-top: 195px;margin-left: 490px; border-radius: 7px;">Kopyala</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
